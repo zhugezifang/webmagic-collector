@@ -21,6 +21,6 @@ public class GiteeRepoPageProcessor implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new GiteeRepoPageProcessor()).addUrl("https://gitee.com/flashsword20").thread(5).run();
+        Spider.create(new GiteeRepoPageProcessor()).addUrl("https://www.huxiu.com/channel/22.html").thread(5).run();
     }
 }
